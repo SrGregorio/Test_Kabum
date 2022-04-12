@@ -35,7 +35,8 @@ Clicar no botao pesquisar
 
 Validar o retorno do produto iphone
     Wait Until Element Is Visible       ${PRODUTO_IPHONE}
-
+    Location Should Contain             ${VALIDA_URL_BUSCA}
+    
 Clicar em todos os departamentos
     Wait Until Element Is Visible       ${TODOS_DEPARTAMENTOS} 
     Click Button                        ${TODOS_DEPARTAMENTOS} 
