@@ -20,7 +20,6 @@ ${BUSCA_IPHONE}             IPhone
 ${BOTAO_PESQUISAR}          //button[contains(@class,'sc-kBjqcv Bmexq')]
 ${PRODUTO_IPHONE}           //span[@height='54'][contains(.,'iPhone 13 128GB Estelar, 5G, Tela de 6.1, Câmera Dupla 12MP - MLPG3BZ/A')]
 
-${CAMPO_RETORNO_BUSCA}      xpath://section[.//div[@id='headerName']]
 ${VALIDA_URL_BUSCA}         https://www.kabum.com.br/celular-smartphone/smartphones/iphone        
 ${VALIDA_BUSCA}             iPhone
 
