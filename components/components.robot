@@ -19,3 +19,16 @@ ${INPUT_BUSCA}              id:input-busca
 ${BUSCA_IPHONE}             IPhone
 ${BOTAO_PESQUISAR}          //button[contains(@class,'sc-kBjqcv Bmexq')]
 ${PRODUTO_IPHONE}           //span[@height='54'][contains(.,'iPhone 13 128GB Estelar, 5G, Tela de 6.1, Câmera Dupla 12MP - MLPG3BZ/A')]
+
+${CAMPO_RETORNO_BUSCA}      xpath://section[.//div[@id='headerName']]
+${VALIDA_URL_BUSCA}         https://www.kabum.com.br/celular-smartphone/smartphones/iphone        
+${VALIDA_BUSCA}             iPhone
+
+
+${TODOS_DEPARTAMENTOS}      //button[contains(.,'TODOS OS DEPARTAMENTOS')]
+${CATEGORIA_CELULAR}        //a[@href='https://www.kabum.com.br/cadeiras']
+${PRODDUTO}                 (//span[contains(.,'Cadeira Gamer Husky Gaming Snow, Preto, Cilindro de Gás Classe 4, Base em Metal, Roda em Nylon - HSN-BK')])[1]
+${BOTAO_COMPRAR}            //button[contains(.,'COMPRAR')]
+${CARRINHO}                 //button[@class='buttonGoToCart'] 
+${VALIDAR_CARRINHO}         //a[contains(@class,'sc-bQtKYq hYRcNr productName')]
+                             
