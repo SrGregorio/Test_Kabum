@@ -23,3 +23,15 @@ Clicar no botao entrar
 
 Verificar mensagem de nao foi possivel realizar login
     Element Text Should Be              ${CAMPO_MENSAGEM}      ${MENSAGEM_LOGIN}
+
+Clicar na busca
+    Click Element                       ${CAMPO_PESQUISA}
+
+Digitar iphone
+    Input Text                          ${INPUT_BUSCA}       ${BUSCA_IPHONE}
+
+Clicar no botao pesquisar
+    Click Button                        ${BOTAO_PESQUISAR}    
+
+Validar o retorno do produto iphone
+    Wait Until Element Is Visible       ${PRODUTO_IPHONE}
