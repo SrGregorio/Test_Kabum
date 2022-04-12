@@ -58,3 +58,46 @@ Adicionar ao carrinho
 
 Verificar se o produto foi adicionar ao carrinho
     Wait Until Element Is Visible       ${VALIDAR_CARRINHO}
+
+# Gherkin BDD
+Dado que estou no site kabum.com.br
+    Após abertura do site validar
+
+Quando clicar em faca login
+    Clicar em faca login
+
+E digitar o usuario
+    Digitar o usuario  
+
+E digitar a senha    
+    Digitar a senha 
+
+E clicar no botao entrar
+    Clicar no botao entrar 
+
+Entao deve ser exibido a mensagem de nao foi possivel realizar login
+    Verificar mensagem de nao foi possivel realizar login
+
+Quando clicar no campo de buscar
+    Clicar na busca
+
+E digitar iphone    
+    Digitar iphone
+
+E clicar no botao buscar
+    Clicar no botao pesquisar
+
+Entao deve ser validado que a busca encontrou o produto
+    Validar o retorno do produto iphone
+
+Quando selecionar uma categoria no menu Departamento
+    Clicar em todos os departamentos
+    Clicar no departamento Celular & Smartphone
+
+E adicionar um produto no carrinho
+    Selecionar produto
+    Clicar em comprar
+    Adicionar ao carrinho
+
+Entao deve ser validado o produto no carrinho
+    Verificar se o produto foi adicionar ao carrinho
