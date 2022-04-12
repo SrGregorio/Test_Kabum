@@ -27,3 +27,11 @@ Cenário 02 - Fazer busca de iphone no site KabuM
     E digitar iphone 
     E clicar no botao buscar
     Entao deve ser validado que a busca encontrou o produto    
+
+Cenário 03 - Selecionar uma categoria no menu "Departamento" e adicionar produto no carrinho
+    [Documentation]     Nesse teste buscamos um produto e validamos a busca.
+    [Tags]              carrinho_produto 
+    Dado que estou no site kabum.com.br
+    Quando selecionar uma categoria no menu Departamento
+    E adicionar um produto no carrinho
+    Entao deve ser validado o produto no carrinho
