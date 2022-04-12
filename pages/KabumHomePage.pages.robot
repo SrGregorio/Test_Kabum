@@ -35,3 +35,26 @@ Clicar no botao pesquisar
 
 Validar o retorno do produto iphone
     Wait Until Element Is Visible       ${PRODUTO_IPHONE}
+
+Clicar em todos os departamentos
+    Wait Until Element Is Visible       ${TODOS_DEPARTAMENTOS} 
+    Click Button                        ${TODOS_DEPARTAMENTOS} 
+
+Clicar no departamento Celular & Smartphone
+    Wait Until Element Is Visible       ${CATEGORIA_CELULAR}
+    Click Element                       ${CATEGORIA_CELULAR}
+
+Selecionar produto
+    Wait Until Element Is Visible       ${PRODDUTO}
+    Click Element                       ${PRODDUTO}    
+
+Clicar em comprar
+    Wait Until Element Is Visible       ${BOTAO_COMPRAR}   
+    Click Button                        ${BOTAO_COMPRAR}
+
+Adicionar ao carrinho
+    Wait Until Element Is Visible       ${CARRINHO}
+    Click Button                        ${CARRINHO}
+
+Verificar se o produto foi adicionar ao carrinho
+    Wait Until Element Is Visible       ${VALIDAR_CARRINHO}
